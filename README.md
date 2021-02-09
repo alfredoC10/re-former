@@ -1,7 +1,7 @@
 # Re-former
 
 ## About
-This is the third project from the Ruby on Rails module of the Microverse program. It is based on The Odin Project's Bare Metal Forms and Helpers. The goal is to implement the Rails form tags along with the Rails helpers in the construction of a user's login form. Following the guidelines to set up a basic Ruby on Rails app allowed me to carry out this work
+This is the third project from the Ruby on Rails module of the Microverse program. It is based on The Odin Project's Bare Metal Forms and Helpers. The goal is to implement the Rails form tags along with the Rails helpers in the construction of a user's sign in form. Following the guidelines to set up a basic Ruby on Rails app allowed me to carry out this work
 
 ## Built with
 - Ruby
