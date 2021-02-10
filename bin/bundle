@@ -9,6 +9,8 @@
 #
 # rubocop:disable Layout/LineLength
 # rubocop:disable Metrics/MethodLength
+# rubocop:disable Metrics/CyclomaticComplexity
+# rubocop:disable Metrics/PerceivedComplexity
 
 require 'rubygems'
 
@@ -121,3 +123,5 @@ load Gem.bin_path('bundler', 'bundle') if m.invoked_as_script?
 
 # rubocop:enable Layout/LineLength
 # rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/CyclomaticComplexity
+# rubocop:enable Metrics/PerceivedComplexity
