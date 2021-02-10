@@ -1,5 +1,5 @@
-# rubocop:disable Style/Documentation
 # rubocop:disable Lint/RedundantCopDisableDirective
+# rubocop:disable Style/Documentation
 
 module ApplicationHelper
 end
