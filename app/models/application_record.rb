@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # rubocop:disable Lint/RedundantCopDisableDirective
 # rubocop:disable Style/Documentation
 
