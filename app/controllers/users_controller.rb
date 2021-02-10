@@ -1,6 +1,5 @@
-# frozen_string_literal: true
-
 # rubocop:disable Style/Documentation
+# rubocop:disable Lint/RedundantCopDisableDirective
 
 class UsersController < ApplicationController
   def new
@@ -37,3 +36,4 @@ class UsersController < ApplicationController
 end
 
 # rubocop:enable Style/Documentation
+# rubocop:enable Lint/RedundantCopDisableDirective
