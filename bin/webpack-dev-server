@@ -1,6 +1,3 @@
-#!/usr/bin/env ruby
-# frozen_string_literal: true
-
 ENV['RAILS_ENV'] ||= ENV['RACK_ENV'] || 'development'
 ENV['NODE_ENV']  ||= 'development'
 
@@ -17,3 +14,4 @@ APP_ROOT = File.expand_path('..', __dir__)
 Dir.chdir(APP_ROOT) do
   Webpacker::DevServerRunner.run(ARGV)
 end
+#!/usr/bin/env ruby
