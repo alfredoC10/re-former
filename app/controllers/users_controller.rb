@@ -1,8 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Lint/RedundantCopDisableDirective
-# rubocop:disable Style/Documentation
-
 class UsersController < ApplicationController
   def new
     @user = User.new
@@ -36,6 +31,3 @@ class UsersController < ApplicationController
     params.require(:user).permit(:username, :email, :password)
   end
 end
-
-# rubocop:enable Style/Documentation
-# rubocop:enable Lint/RedundantCopDisableDirective
